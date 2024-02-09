@@ -1,0 +1,35 @@
+.mainslider{
+    margin-top: 20px !important;
+}
+
+
+
+@media screen and (max-width:568px){
+    /*Start section 1*/
+    .mainslider{
+        margin-top: 110px !important;
+       
+    }
+}
+ 
+@media screen and (min-width:569px) and (max-width:768px){
+    
+    /*Start section 1*/
+    .mainslider{
+        margin-top: 110px !important;
+       
+    }
+   
+}
+
+@media screen and (min-width:769px) and (max-width:992px){
+    
+    /*Start section 1*/
+    .mainslider{
+        margin-top: 110px !important;
+       
+    }
+   
+ }
+ 
+

@@ -1,0 +1,34 @@
+.register{
+    margin-top: 20px !important;
+ }
+ 
+ @media screen and (max-width:568px){
+     /*Start section 1*/
+     .register{
+         margin-top: 100px !important;
+         width: 100% !important;
+         margin-bottom: 50px !important;
+}
+     
+   
+     
+   }
+ @media screen and (min-width:569px) and (max-width:768px){
+     /*Start section 1*/
+     .register{
+         margin-top: 100px !important;
+         width: 100% !important;
+         margin-bottom: 50px !important;
+ 
+     }
+ }
+ @media screen and (min-width:769px) and (max-width:992px){
+     /*Start section 1*/
+     .register{
+         margin-top: 100px !important;
+         width: 100% !important;
+         margin-bottom: 50px !important;
+ 
+     }
+    
+ }

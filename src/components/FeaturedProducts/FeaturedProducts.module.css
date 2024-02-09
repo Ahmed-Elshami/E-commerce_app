@@ -1,0 +1,13 @@
+.productCaption{
+    width: 90%;
+    margin-left: 5%;
+}
+.titile{
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(16,16,16,0.9);
+    margin-top: 5px;
+}
+.name{
+    color: rgb(51, 51, 51,  65%);
+}

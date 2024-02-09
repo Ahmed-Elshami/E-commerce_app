@@ -1,0 +1,30 @@
+.editImg{
+    object-fit: cover;
+    object-position: center center !important;
+    border: solid 1px #0aad0a;
+    width: 180px !important;
+}
+@media screen and (max-width:568px){
+    /*Start section 1*/
+   
+    .editImg{
+        width: 96% !important;
+    }
+    
+  }
+  @media screen and (min-width:569px) and (max-width:768px){
+      
+    /*Start section 1*/
+   
+    .editImg{
+        width: 96% !important;
+    }
+  }
+  @media screen and (min-width:769px) and (max-width:992px){
+      
+    /*Start section 1*/
+ 
+    .editImg{
+        width: 180px !important;
+    }
+}
