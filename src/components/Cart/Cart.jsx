@@ -114,10 +114,10 @@ export default function Cart() {
                   <div className= {`col-md-9 mt-1 ${style.controlMeia}`}>
                     <div className="d-flex justify-content-between align-aitems-center">
                       <div>
-                        <h3 className='h6'>{product.product.title.split(" ").slice(0,3).join(' ')}</h3>
-                        <h6 className='text-main'>Price : {product.price} EGP</h6>
+                        <h3 className={`h6 ${style.carth6}`}>{product.product.title.split(" ").slice(0,3).join(' ')}</h3>
+                        <h6 className='text-main'> {product.price} EGP</h6>
                       </div>
-                      <div className='mt-3 hoverrl' >
+                      <div className={`mt-3 hoverrl ${style.counters}`} >
                       <button onClick={()=> updateCount(product.product.id,product.count - 1)}  className={`btn ${style.brdrmainrl} `}>-</button>
                         <span className={` btn ${style.brdcount} `}>{product.count}</span>
                         <button onClick={()=> updateCount(product.product.id,product.count + 1)} className={`btn ${style.brdrmainrl} `}>+</button>

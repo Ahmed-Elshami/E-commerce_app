@@ -87,14 +87,14 @@ export default function ProductDetails() {
             {/* <h6>{data?.data.data?.category.name}</h6> */}
 
             <h5 className={style.p}>{data?.data.data?.description}</h5>
-            <div className=" w-50 d-flex justify-content-between">
+            <div className={`w-50 d-flex justify-content-between ${style.spacecaption}`}>
             <h6><i className='fas fa-star rating-color'></i> {data?.data.data?.ratingsAverage} </h6>
               <h6 className={`text-main ${style.salary}`}>{data?.data.data?.price} EGY</h6>
             </div>
 
             {localStorage.getItem('userToken2') !== null?
            <>
-            <button onClick={()=>addProduct(data?.data.data.id)} className={`${style.butonsubmit} btn bg-main text-white btn-sm w-50 mt-2`}>+ add to card</button>
+            <button onClick={()=>addProduct(data?.data.data.id)} className={`${style.butonsubmit} btn bg-main text-white btn-sm w-50  mt-3`}>+ add to card</button>
               {/* <button   data-bs-toggle="modal" data-bs-target="#exampleModal"    className='btn bg-main text-white w-100 btn-sm mt-2'><i className="fas fa-shopping-cart"></i></button> */}
 
            </>

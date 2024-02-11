@@ -73,7 +73,7 @@ padding: 0 !important;
        display: none !important;
    }
    .navbar2{
-       margin-top: -45px;
+    margin-top: -45px;
       padding: 0px;
       padding-bottom: 20px !important;
       padding-top: 10px;
@@ -92,14 +92,21 @@ padding: 0 !important;
    }
    .photo{
        margin: auto;
+       padding-left: 65px;
    }
    .user{
        font-size: 20px;
        color: #464646 !important;
        display: inline;
+       margin-right: 15px;
+       padding-top: 10px !important;
+
    }
    .userName{
     display: inline;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-top: 10px !important;
 }
 }
 
@@ -137,6 +144,9 @@ padding: 0 !important;
   }
 .userName{
     display: inline;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-top: 15px !important;
 }
 }
 
@@ -174,6 +184,9 @@ padding: 0 !important;
   }
   .userName{
     display: inline;
+    margin-right: 15px;
+    font-weight: bold;
+    margin-top: 15px !important;
  }
 }
 

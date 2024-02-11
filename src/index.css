@@ -219,8 +219,6 @@ main {
   transition: 0.5s;
   z-index: 9999 !important;
 }
-
-
 .nav {
   display: flex;
   flex-direction: column;
@@ -334,8 +332,8 @@ main {
   /*Start section 1*/
   .header {
     position: absolute;
-    top: -3px;
-    left: 5px;
+    top: -2px;
+    left: 8px;
   }
   .header-toggle {
     font-size: 1.25rem;
@@ -347,6 +345,7 @@ main {
   }
   .mediaProduct{
     width: 50% !important;
+    padding: 2.5px !important;
   }
 
   .productDetailss{
@@ -369,8 +368,8 @@ main {
   /*Start section 1*/
   .header {
     position: absolute;
-    top: -3px;
-    left: 5px;
+    top: 0px;
+    left: 8px;
   }
   .header-toggle {
     font-size: 1.25rem;
@@ -403,8 +402,7 @@ main {
   .header {
     position: absolute;
     top: -16px;
-    left: -55px;
-   
+    left: -55px;   
   }
   .header-toggle {
     font-size: 1.25rem;

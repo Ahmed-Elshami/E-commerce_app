@@ -62,13 +62,22 @@
 
     }
     .imgMedia{
-        width: 100px !important;
+        width: 60px !important;
+        background-color: #0AAD0A !important;
+        padding: 0 !important;
+    }
+    .counters{
+        display: flex;
+        align-items: center;
     }
     .imgMedia img{
        width: 100% !important;
     }
     .controlMeia{
         width: 80% !important;
+    }
+    .carth6{
+        font-size: 16px !important;
     }
     .upremove{
         position: relative !important;

@@ -3,11 +3,30 @@
     margin-left: 5%;
 }
 .titile{
-    font-size: 17px;
+    font-size: 18px;
     font-weight: bold;
     color: rgba(16,16,16,0.9);
     margin-top: 5px;
 }
 .name{
     color: rgb(51, 51, 51,  65%);
+    font-size: 14px;
+    font-weight: bold;
 }
+
+
+
+@media screen and (max-width:568px){
+    /*Start section 1*/
+    .titile{
+        font-size: 15px;
+        font-weight: bold;
+        color: rgba(16,16,16,0.9);
+        margin-top: 5px;
+    }
+    .name{
+        color: rgb(51, 51, 51,  65%);
+        font-size: 13px;
+        font-weight: bold;
+    }
+  }

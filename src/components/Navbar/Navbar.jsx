@@ -125,7 +125,7 @@ const Sidebar = () => {
         </div>
 
         {userData !== null ?
-          <h3 className={`h6 text-main bolder mt-2 ${style.userName}`}>Welcome {userData}</h3>
+          <h3 className={`h6 text-main bolder  ${style.userName}`}> {userData}</h3>
 
           :
           <Link to='/register'>
